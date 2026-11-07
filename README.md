@@ -54,7 +54,7 @@ Only reviewed item names, prices, currency and customer email go to the server a
 
 Devpost showed **Submitted**, **5/5 steps done** and **Project submitted!** on November 7, 2026. The required demonstration-video field contains https://www.youtube.com/watch?v=anzpNNk0v-U and was saved again that day. YouTube exposes the 1:47 video page and application preview without sign-in; full playback could not be reverified in the review browser because the media remained buffering.
 
-The public repository includes a GitHub-detected MIT license. All eight automated tests passed again on November 7, 2026. These tests use mocked PayPal transport; the real sandbox checks above are historical evidence, not a new live verification.
+The public repository includes a GitHub-detected MIT license. A fresh public checkout installed successfully with `npm install --ignore-scripts`; all eight automated tests and `npm run build` passed again on November 7, 2026. These tests use mocked PayPal transport; the real sandbox checks above are historical evidence, not a new live verification.
 
 Hosted access remains owner-private; judges should use the complete repository setup instructions above with their own free PayPal sandbox business REST app. No AI service subscription is needed. Mobile styling is implemented; an actual iPhone test was not performed. Official rules rechecked on November 7, 2026; deadline November 12 at 21:00 Europe/Madrid.
 
