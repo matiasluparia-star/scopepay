@@ -1,4 +1,4 @@
-# Demo plan — 2 minutes 20 seconds, no voice or face
+# Historical demo plan — no voice or face
 
 Record actual browser interaction after sandbox credentials have been tested. Use on-screen English captions. No stock UI, simulated invoice success, music or third-party logo is needed.
 
@@ -10,4 +10,4 @@ Record actual browser interaction after sandbox credentials have been tested. Us
 01:30–02:00 — Click Create PayPal sandbox draft. Show the real invoice ID; then verify that ID in the sandbox dashboard. Caption: “Real sandbox API. Draft only. No email sent. No money moved.” Hide account details and credentials during recording.
 02:00–02:20 — Show quote JSON export and finish on app. Caption: “Clear scope. Confident invoices. ScopePay.”
 
-Still needed: live sandbox connection and a way to record actual browser frames. Do not publish a success demonstration before the actual integration works. YouTube upload requires the entrant's account and final publishing authorization.
+Current status (November 7, 2026): the completed video is 1:47, at https://www.youtube.com/watch?v=anzpNNk0v-U . It is present in the required Devpost video field and the project is Submitted. The timing above is the original plan, not a transcript of the final edit. Historical real sandbox checks are documented in README.md; eight automated tests passed again today. The review browser loaded the YouTube page and application preview without login, but media remained buffering, so full playback was not reverified.
