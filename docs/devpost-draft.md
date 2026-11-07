@@ -1,6 +1,6 @@
 # Devpost copy — ScopePay
 
-Status: draft copy. Real sandbox invoice creation has been verified. Do not submit until the running-app video link exists. Public source: https://github.com/matiasluparia-star/scopepay . The text below accurately describes the implemented design; confirm behavior before claiming completion.
+Status: historical draft copy. On November 7, 2026 Devpost showed Submitted, 5/5 steps done, and Project submitted! The required video field contains https://www.youtube.com/watch?v=anzpNNk0v-U . Historical real sandbox invoice creation is documented in README.md. Public source: https://github.com/matiasluparia-star/scopepay . The text below accurately describes the implemented design; confirm behavior before claiming completion.
 
 ## Name
 ScopePay
