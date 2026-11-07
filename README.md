@@ -4,7 +4,7 @@
 
 ## Current verification status
 
-The local classifier, parser, editable quote and approval reset were tested. Eight automated tests cover currency arithmetic, ambiguous scope, classifier hold-outs, payloads and mocked sandbox transport. **Real PayPal sandbox integration verified on 2026-10-25.** The hosted server authenticated successfully and created invoice `INV2-H824-EB7N-AJRR-M4XJ`, status `DRAFT`, for EUR 50.00. The response came from the PayPal sandbox API, not a mock. This remains a development build, not a completed hackathon submission. Public source: https://github.com/matiasluparia-star/scopepay . Public demo video (1:47): https://www.youtube.com/watch?v=anzpNNk0v-U . On 2026-10-26 a fresh checkout passed all eight tests and npm run build completed successfully. Browser QA reconfirmed EUR 220.00 totals, unpriced-scope blocking and approval reset after edits. A fresh real sandbox call created invoice INV2-4M57-B4YQ-Y8V9-7688 in DRAFT status.
+The local classifier, parser, editable quote and approval reset were tested. Eight automated tests cover currency arithmetic, ambiguous scope, classifier hold-outs, payloads and mocked sandbox transport. **Real PayPal sandbox integration verified on 2026-10-25.** The hosted server authenticated successfully and created invoice `INV2-H824-EB7N-AJRR-M4XJ`, status `DRAFT`, for EUR 50.00. The response came from the PayPal sandbox API, not a mock. This remains a development build; Devpost submission status is recorded below. Public source: https://github.com/matiasluparia-star/scopepay . Public demo video (1:47): https://www.youtube.com/watch?v=anzpNNk0v-U . On 2026-10-26 a fresh checkout passed all eight tests and npm run build completed successfully. Browser QA reconfirmed EUR 220.00 totals, unpriced-scope blocking and approval reset after edits. A fresh real sandbox call created invoice INV2-4M57-B4YQ-Y8V9-7688 in DRAFT status.
 
 ## Run
 
@@ -50,9 +50,13 @@ The four held-out classifier examples test basic behavior only, not real-world g
 
 Only reviewed item names, prices, currency and customer email go to the server and PayPal. No persistent customer database exists. Sites may process normal hosting/access logs. Credentials remain server-side. The current demo has no send, capture, refund or live-money route.
 
-## Remaining before submission
+## Submission and judging access
 
-Completed: genuine sandbox draft creation, fresh-checkout tests and production build, public captioned demo video, and Devpost technical draft fields. Hosted access remains owner-private; use the repository setup route for judging. Remaining: entrant review, legal declarations and final submission. Mobile styling is implemented; an actual iPhone test was not performed. Official rules rechecked on 2026-10-26; deadline November 12 at 21:00 Europe/Madrid.
+Devpost showed **Submitted**, **5/5 steps done** and **Project submitted!** on November 7, 2026. The required demonstration-video field contains https://www.youtube.com/watch?v=anzpNNk0v-U and was saved again that day. YouTube exposes the 1:47 video page and application preview without sign-in; full playback could not be reverified in the review browser because the media remained buffering.
+
+The public repository includes a GitHub-detected MIT license. All eight automated tests passed again on November 7, 2026. These tests use mocked PayPal transport; the real sandbox checks above are historical evidence, not a new live verification.
+
+Hosted access remains owner-private; judges should use the complete repository setup instructions above with their own free PayPal sandbox business REST app. No AI service subscription is needed. Mobile styling is implemented; an actual iPhone test was not performed. Official rules rechecked on November 7, 2026; deadline November 12 at 21:00 Europe/Madrid.
 
 ## References
 
